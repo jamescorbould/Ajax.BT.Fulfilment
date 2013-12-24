@@ -1,0 +1,38 @@
+﻿<ns0:Root xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003/aggschema">
+  <InputMessagePart_0>
+    <ns1:Order MinorVersion="1.0" xmlns:ns1="http://Ajax.BT.Purchasing.PurchaseOrder/Internal/Canonical/v1">
+      <Header>
+        <OrderID>OrderID_0</OrderID>
+        <SupplierID>SupplierID_0</SupplierID>
+      </Header>
+      <Items>
+        <Item>
+          <LineNo>1</LineNo>
+          <ItemID>ItemID_0</ItemID>
+          <Description>Description_0</Description>
+          <Quantity>Quanity_0</Quantity>
+          <TotalCost>TotalCost_0</TotalCost>
+        </Item>
+        <Item>
+          <LineNo>2</LineNo>
+          <ItemID>ItemID_0</ItemID>
+          <Description>Description_0</Description>
+          <Quantity>Quanity_0</Quantity>
+          <TotalCost>TotalCost_0</TotalCost>
+        </Item>
+        <Item>
+          <LineNo>3</LineNo>
+          <ItemID>ItemID_0</ItemID>
+          <Description>Description_0</Description>
+          <Quantity>Quanity_0</Quantity>
+          <TotalCost>TotalCost_0</TotalCost>
+        </Item>
+      </Items>
+    </ns1:Order>
+  </InputMessagePart_0>
+  <InputMessagePart_1>
+    <ns2:ObtainPresentResponse MinorVersion="1.0" xmlns:ns2="http://schemas.ajax/internal/randompresentservice/v1">
+      <ns2:ObtainPresentResult>Cabbage</ns2:ObtainPresentResult>
+    </ns2:ObtainPresentResponse>
+  </InputMessagePart_1>
+</ns0:Root>

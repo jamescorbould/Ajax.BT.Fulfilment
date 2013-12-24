@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36424BB8-D5AA-471E-B2D4-D801633EF475}</ProjectGuid>
+    <ProjectTypeGuids>{EF7E3281-CD33-11D4-8326-00C04FA0CE8D};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>library</OutputType>
+    <GenericProcessing>true</GenericProcessing>
+    <RootNamespace>Ajax.BT.Fulfilment.Maps</RootNamespace>
+    <AssemblyName>Ajax.BT.Fulfilment.Maps</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <BpelCompliance>True</BpelCompliance>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Ajax.BT.Fulfilment.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Name>System.Configuration</Name>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.Pipeline">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.DefaultPipelines">
+      <Name>Microsoft.BizTalk.DefaultPipelines</Name>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.GlobalPropertySchemas">
+      <Name>Microsoft.BizTalk.GlobalPropertySchemas</Name>
+    </Reference>
+    <Reference Include="Microsoft.BizTalk.TestTools">
+      <Name>Microsoft.BizTalk.TestTools</Name>
+    </Reference>
+    <Reference Include="Microsoft.XLANGs.BaseTypes">
+      <Name>Microsoft.XLANGs.BaseTypes</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Map Include="ExtPurchaseOrder_To_IntPurchaseOrder.btm">
+      <TypeName>ExtPurchaseOrder_To_IntPurchaseOrder</TypeName>
+      <Namespace>Ajax.BT.Fulfilment.Maps</Namespace>
+      <SubType>Task</SubType>
+    </Map>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ajax.BT.Fulfilment.ExternalSchemas\Ajax.BT.Fulfilment.ExternalSchemas.btproj">
+      <Project>{7f19fcac-39e5-42d1-8e33-7ee9926774b1}</Project>
+      <Name>Ajax.BT.Fulfilment.ExternalSchemas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ajax.BT.Fulfilment\Ajax.BT.Fulfilment.InternalSchemas.btproj">
+      <Project>{8b2eae9e-c1d2-4c5b-b081-41f699b07b06}</Project>
+      <Name>Ajax.BT.Fulfilment.InternalSchemas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Map Include="IntRandomPresentRequest_To_ExtRandomPresentRequest.btm">
+      <TypeName>IntRandomPresentRequest_To_ExtRandomPresentRequest</TypeName>
+      <Namespace>Ajax.BT.Fulfilment.Maps</Namespace>
+      <SubType>Task</SubType>
+    </Map>
+  </ItemGroup>
+  <ItemGroup>
+    <Map Include="ExtRandomPresentResponse_To_IntRandomPresentResponse.btm">
+      <TypeName>ExtRandomPresentResponse_To_IntRandomPresentResponse</TypeName>
+      <Namespace>Ajax.BT.Fulfilment.Maps</Namespace>
+      <SubType>Task</SubType>
+    </Map>
+  </ItemGroup>
+  <ItemGroup>
+    <Map Include="IntPurchaseOrder_And_IntGetPresent_To_IntPurchaseOrder.btm">
+      <SubType>Designer</SubType>
+      <TypeName>IntPurchaseOrder_And_IntGetPresent_To_IntPurchaseOrder</TypeName>
+      <Namespace>Ajax.BT.Fulfilment.Maps</Namespace>
+    </Map>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IntPurchaseOrder_And_IntGetPresent_To_IntPurchaseOrder.xsl" />
+    <Map Include="IntPurchaseOrder_To_ExtPurchaseOrder.btm">
+      <TypeName>IntPurchaseOrder_To_ExtPurchaseOrder</TypeName>
+      <Namespace>Ajax.BT.Fulfilment.Maps</Namespace>
+      <SubType>Task</SubType>
+    </Map>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ajax.BT.Fulfilment.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />
+</Project>

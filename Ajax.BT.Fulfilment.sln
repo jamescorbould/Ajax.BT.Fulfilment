@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.InternalSchemas", "Ajax.BT.Fulfilment\Ajax.BT.Fulfilment.InternalSchemas.btproj", "{8B2EAE9E-C1D2-4C5B-B081-41F699B07B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.ExternalSchemas", "Ajax.BT.Fulfilment.ExternalSchemas\Ajax.BT.Fulfilment.ExternalSchemas.btproj", "{7F19FCAC-39E5-42D1-8E33-7EE9926774B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Maps", "Ajax.BT.Fulfilment.Maps\Ajax.BT.Fulfilment.Maps.btproj", "{36424BB8-D5AA-471E-B2D4-D801633EF475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfiment.Orchestrations", "Ajax.BT.Fulfilment.Orchestrations\Ajax.BT.Fulfiment.Orchestrations.btproj", "{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionArtefacts", "SolutionArtefacts", "{E5C46710-987D-4AE7-B9D6-F8060ACC604E}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionArtefacts\Ajax.BT.Fulfilment.snk = SolutionArtefacts\Ajax.BT.Fulfilment.snk
+		SolutionArtefacts\RandomPresentService.BindingInfo.xml = SolutionArtefacts\RandomPresentService.BindingInfo.xml
+		SolutionArtefacts\RandomPresentService_Custom.BindingInfo.xml = SolutionArtefacts\RandomPresentService_Custom.BindingInfo.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Classes", "Ajax.BT.Fulfilment.Classes\Ajax.BT.Fulfilment.Classes.csproj", "{FCDAC17B-F899-448E-AA88-893623A93CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Testing", "Ajax.BT.Fulfilment.Testing\Ajax.BT.Fulfilment.Testing.csproj", "{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jamescorbould.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Ajax.BT.Fulfilment.Classes\\Ajax.BT.Fulfilment.Classes.csproj
+		SccProjectName1 = Ajax.BT.Fulfilment.Classes
+		SccLocalPath1 = Ajax.BT.Fulfilment.Classes
+		SccProjectUniqueName2 = Ajax.BT.Fulfilment.ExternalSchemas\\Ajax.BT.Fulfilment.ExternalSchemas.btproj
+		SccProjectName2 = Ajax.BT.Fulfilment.ExternalSchemas
+		SccLocalPath2 = Ajax.BT.Fulfilment.ExternalSchemas
+		SccProjectUniqueName3 = Ajax.BT.Fulfilment.Maps\\Ajax.BT.Fulfilment.Maps.btproj
+		SccProjectName3 = Ajax.BT.Fulfilment.Maps
+		SccLocalPath3 = Ajax.BT.Fulfilment.Maps
+		SccProjectUniqueName4 = Ajax.BT.Fulfilment.Orchestrations\\Ajax.BT.Fulfiment.Orchestrations.btproj
+		SccProjectName4 = Ajax.BT.Fulfilment.Orchestrations
+		SccLocalPath4 = Ajax.BT.Fulfilment.Orchestrations
+		SccProjectUniqueName5 = Ajax.BT.Fulfilment.Testing\\Ajax.BT.Fulfilment.Testing.csproj
+		SccProjectName5 = Ajax.BT.Fulfilment.Testing
+		SccLocalPath5 = Ajax.BT.Fulfilment.Testing
+		SccProjectUniqueName6 = Ajax.BT.Fulfilment\\Ajax.BT.Fulfilment.InternalSchemas.btproj
+		SccProjectName6 = Ajax.BT.Fulfilment
+		SccLocalPath6 = Ajax.BT.Fulfilment
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2EAE9E-C1D2-4C5B-B081-41F699B07B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2EAE9E-C1D2-4C5B-B081-41F699B07B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2EAE9E-C1D2-4C5B-B081-41F699B07B06}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B2EAE9E-C1D2-4C5B-B081-41F699B07B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2EAE9E-C1D2-4C5B-B081-41F699B07B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2EAE9E-C1D2-4C5B-B081-41F699B07B06}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7F19FCAC-39E5-42D1-8E33-7EE9926774B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F19FCAC-39E5-42D1-8E33-7EE9926774B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F19FCAC-39E5-42D1-8E33-7EE9926774B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7F19FCAC-39E5-42D1-8E33-7EE9926774B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F19FCAC-39E5-42D1-8E33-7EE9926774B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F19FCAC-39E5-42D1-8E33-7EE9926774B1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{36424BB8-D5AA-471E-B2D4-D801633EF475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36424BB8-D5AA-471E-B2D4-D801633EF475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36424BB8-D5AA-471E-B2D4-D801633EF475}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{36424BB8-D5AA-471E-B2D4-D801633EF475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36424BB8-D5AA-471E-B2D4-D801633EF475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36424BB8-D5AA-471E-B2D4-D801633EF475}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FCDAC17B-F899-448E-AA88-893623A93CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDAC17B-F899-448E-AA88-893623A93CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDAC17B-F899-448E-AA88-893623A93CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDAC17B-F899-448E-AA88-893623A93CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
