@@ -20,6 +20,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Classes"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Testing", "Ajax.BT.Fulfilment.Testing\Ajax.BT.Fulfilment.Testing.csproj", "{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdPartyAssemblies", "3rdPartyAssemblies", "{6920CB33-5C90-487F-BAF8-AD6091916637}"
+	ProjectSection(SolutionItems) = preProject
+		3rdPartyAssemblies\Microsoft.BizTalk.CAT.BestPractices.Framework.dll = 3rdPartyAssemblies\Microsoft.BizTalk.CAT.BestPractices.Framework.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 7

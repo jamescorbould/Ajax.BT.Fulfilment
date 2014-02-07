@@ -43,6 +43,9 @@
     <AssemblyOriginatorKeyFile>Ajax.BT.Fulfilment.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.BizTalk.CAT.BestPractices.Framework">
+      <HintPath>..\3rdPartyAssemblies\Microsoft.BizTalk.CAT.BestPractices.Framework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.ESB.ExceptionHandling, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.Practices.ESB.ExceptionHandling\v4.0_2.1.0.0__31bf3856ad364e35\Microsoft.Practices.ESB.ExceptionHandling.dll</HintPath>
