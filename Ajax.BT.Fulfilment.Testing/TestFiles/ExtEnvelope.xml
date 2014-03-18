@@ -1,0 +1,28 @@
+﻿<ns0:Message MinorVersion="MinorVersion_0" xmlns:ns0="http://Ajax.BT.Fulfilment.ExternalSchemas.ExtEnvelope/External/v1">
+  <Element1>Element1_0</Element1>
+  <Element2>Element2_0</Element2>
+  <Entities>
+    <ns0:Order MinorVersion="1.0" xmlns:ns0="http://Ajax.BT.Purchasing.PurchaseOrder/External/v1">
+      <Header>
+        <OrderID>12388</OrderID>
+        <SupplierID>MEGASTUFF001</SupplierID>
+      </Header>
+      <Items>
+        <Item>
+          <LineNo>0</LineNo>
+          <ItemID>ABC12</ItemID>
+          <Description>Moro Bar</Description>
+          <Quantity>100</Quantity>
+          <TotalCost>200.0000</TotalCost>
+        </Item>
+        <Item>
+          <LineNo>1</LineNo>
+          <ItemID>CCC2</ItemID>
+          <Description>KitKat</Description>
+          <Quantity>100</Quantity>
+          <TotalCost>200.0000</TotalCost>
+        </Item>
+      </Items>
+    </ns0:Order>
+  </Entities>
+</ns0:Message>

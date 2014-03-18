@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="TestFiles\ExtEnvelope.xml" />
     <Content Include="TestFiles\PurchaseOrderPresent.xml" />
   </ItemGroup>
   <Choose>
