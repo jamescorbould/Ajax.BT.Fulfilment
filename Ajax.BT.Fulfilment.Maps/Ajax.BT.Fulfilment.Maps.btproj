@@ -120,6 +120,11 @@
       <Namespace>Ajax.BT.Fulfilment.Maps</Namespace>
       <SubType>Task</SubType>
     </Map>
+    <Map Include="ExtPurchaseOrder_To_ExtEnvelope.btm">
+      <TypeName>ExtPurchaseOrder_To_ExtEnvelope</TypeName>
+      <Namespace>Ajax.BT.Fulfilment.Maps</Namespace>
+      <SubType>Task</SubType>
+    </Map>
     <Content Include="IntPurchaseOrder_And_IntGetPresent_To_IntPurchaseOrder.xsl" />
     <Map Include="IntPurchaseOrder_To_ExtPurchaseOrder.btm">
       <TypeName>IntPurchaseOrder_To_ExtPurchaseOrder</TypeName>
