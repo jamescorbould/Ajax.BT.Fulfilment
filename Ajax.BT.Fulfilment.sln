@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.External
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Maps", "Ajax.BT.Fulfilment.Maps\Ajax.BT.Fulfilment.Maps.btproj", "{36424BB8-D5AA-471E-B2D4-D801633EF475}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfiment.Orchestrations", "Ajax.BT.Fulfilment.Orchestrations\Ajax.BT.Fulfiment.Orchestrations.btproj", "{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Orchestrations", "Ajax.BT.Fulfilment.Orchestrations\Ajax.BT.Fulfilment.Orchestrations.btproj", "{E7232DEC-BCEF-4A9A-84BB-4F1B70CEEA32}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionArtefacts", "SolutionArtefacts", "{E5C46710-987D-4AE7-B9D6-F8060ACC604E}"
 	ProjectSection(SolutionItems) = preProject
@@ -25,31 +25,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdPartyAssemblies", "3rdPa
 		3rdPartyAssemblies\Microsoft.BizTalk.CAT.BestPractices.Framework.dll = 3rdPartyAssemblies\Microsoft.BizTalk.CAT.BestPractices.Framework.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ajax.BT.Fulfilment.Deployment", "Ajax.BT.Fulfilment.Deployment", "{9854C37A-CDB5-4E5D-AA6F-679BBCBB5BD5}"
+	ProjectSection(SolutionItems) = preProject
+		Ajax.BT.Fulfilment.Deployment\Deployment.btdfproj = Ajax.BT.Fulfilment.Deployment\Deployment.btdfproj
+		Ajax.BT.Fulfilment.Deployment\InstallWizard.xml = Ajax.BT.Fulfilment.Deployment\InstallWizard.xml
+		Ajax.BT.Fulfilment.Deployment\License.rtf = Ajax.BT.Fulfilment.Deployment\License.rtf
+		Ajax.BT.Fulfilment.Deployment\PortBindingsMaster.xml = Ajax.BT.Fulfilment.Deployment\PortBindingsMaster.xml
+		Ajax.BT.Fulfilment.Deployment\UnInstallWizard.xml = Ajax.BT.Fulfilment.Deployment\UnInstallWizard.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnvironmentSettings", "EnvironmentSettings", "{CBB0E5C1-7D4A-4651-A696-3356F4F04883}"
+	ProjectSection(SolutionItems) = preProject
+		Ajax.BT.Fulfilment.Deployment\EnvironmentSettings\SettingsFileGenerator.xml = Ajax.BT.Fulfilment.Deployment\EnvironmentSettings\SettingsFileGenerator.xml
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://jamescorbould.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Ajax.BT.Fulfilment.Classes\\Ajax.BT.Fulfilment.Classes.csproj
-		SccProjectName1 = Ajax.BT.Fulfilment.Classes
-		SccLocalPath1 = Ajax.BT.Fulfilment.Classes
-		SccProjectUniqueName2 = Ajax.BT.Fulfilment.ExternalSchemas\\Ajax.BT.Fulfilment.ExternalSchemas.btproj
-		SccProjectName2 = Ajax.BT.Fulfilment.ExternalSchemas
-		SccLocalPath2 = Ajax.BT.Fulfilment.ExternalSchemas
-		SccProjectUniqueName3 = Ajax.BT.Fulfilment.Maps\\Ajax.BT.Fulfilment.Maps.btproj
-		SccProjectName3 = Ajax.BT.Fulfilment.Maps
-		SccLocalPath3 = Ajax.BT.Fulfilment.Maps
-		SccProjectUniqueName4 = Ajax.BT.Fulfilment.Orchestrations\\Ajax.BT.Fulfiment.Orchestrations.btproj
-		SccProjectName4 = Ajax.BT.Fulfilment.Orchestrations
-		SccLocalPath4 = Ajax.BT.Fulfilment.Orchestrations
-		SccProjectUniqueName5 = Ajax.BT.Fulfilment.Testing\\Ajax.BT.Fulfilment.Testing.csproj
-		SccProjectName5 = Ajax.BT.Fulfilment.Testing
-		SccLocalPath5 = Ajax.BT.Fulfilment.Testing
-		SccProjectUniqueName6 = Ajax.BT.Fulfilment\\Ajax.BT.Fulfilment.InternalSchemas.btproj
-		SccProjectName6 = Ajax.BT.Fulfilment
-		SccLocalPath6 = Ajax.BT.Fulfilment
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -90,5 +80,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBB0E5C1-7D4A-4651-A696-3356F4F04883} = {9854C37A-CDB5-4E5D-AA6F-679BBCBB5BD5}
 	EndGlobalSection
 EndGlobal
