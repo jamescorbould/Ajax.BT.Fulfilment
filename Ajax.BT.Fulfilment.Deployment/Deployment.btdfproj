@@ -13,7 +13,7 @@
     <IncludeSchemas>True</IncludeSchemas>
     <IncludeOrchestrations>True</IncludeOrchestrations>
     <IncludeTransforms>True</IncludeTransforms>
-    <IncludePipelines>False</IncludePipelines>
+    <IncludePipelines>True</IncludePipelines>
     <IncludeComponents>True</IncludeComponents>
     <IncludePipelineComponents>False</IncludePipelineComponents>
     <IncludeCustomFunctoids>False</IncludeCustomFunctoids>
@@ -106,6 +106,11 @@
     <Orchestrations Include="Ajax.BT.Fulfilment.Orchestrations.dll">
       <LocationPath>..\$(ProjectName).Orchestrations\bin\$(Configuration)</LocationPath>
     </Orchestrations>
+  </ItemGroup>
+  <ItemGroup>
+    <Pipelines Include="Ajax.BT.Fulfilment.Pipelines.dll">
+      <LocationPath>..\$(ProjectName).Pipelines\bin\$(Configuration)</LocationPath>
+    </Pipelines>
   </ItemGroup>
   <!-- !!! TODO !!! -->
   <Import Project="$(DeploymentFrameworkTargetsPath)BizTalkDeploymentFramework.targets" />

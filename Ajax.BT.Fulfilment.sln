@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnvironmentSettings", "Envi
 		Ajax.BT.Fulfilment.Deployment\EnvironmentSettings\SettingsFileGenerator.xml = Ajax.BT.Fulfilment.Deployment\EnvironmentSettings\SettingsFileGenerator.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax.BT.Fulfilment.Pipelines", "Ajax.BT.Fulfilment.Pipelines\Ajax.BT.Fulfilment.Pipelines.btproj", "{16264395-2492-49C0-B36D-878FC86969DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,12 @@ Global
 		{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F9A644D-101C-4CD2-9BF6-BCD25B37F831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16264395-2492-49C0-B36D-878FC86969DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16264395-2492-49C0-B36D-878FC86969DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16264395-2492-49C0-B36D-878FC86969DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{16264395-2492-49C0-B36D-878FC86969DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16264395-2492-49C0-B36D-878FC86969DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16264395-2492-49C0-B36D-878FC86969DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
