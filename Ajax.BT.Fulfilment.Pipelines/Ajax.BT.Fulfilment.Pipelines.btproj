@@ -39,7 +39,9 @@
     <AssemblyOriginatorKeyFile>..\SolutionArtefacts\Ajax.BT.Fulfilment.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BREPipelineFrameworkComponent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=83eab0b166470ebc, processorArchitecture=MSIL" />
+    <Reference Include="BREPipelineFrameworkComponent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=83eab0b166470ebc, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2013\Pipeline Components\BREPipelineFrameworkComponent.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.BizTalk.Pipeline.Components, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System">
       <Name>System</Name>
